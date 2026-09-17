@@ -1,86 +1,114 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>pochitto games</title>
-<style>
-  :root{
-    --bg:#fff8ef; --card:#ffffff; --ink:#3b3028; --sub:#7d6f62;
-    --line:#3b3028; --accent:#f5a623; --accent2:#ff8a3d;
-  }
-  @media (prefers-color-scheme: dark){
-    :root{ --bg:#241d18; --card:#302620; --ink:#f6ece2; --sub:#bda994; --line:#0f0c0a; }
-  }
-  *{box-sizing:border-box}
-  body{
-    margin:0; background:var(--bg); color:var(--ink);
-    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;
-    line-height:1.75; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:720px;margin:0 auto;padding:56px 20px 72px}
-  header{text-align:center;margin-bottom:48px}
-  .logo{
-    display:inline-block;font-size:30px;font-weight:900;letter-spacing:.5px;
-    padding:14px 28px;border:3px solid var(--line);border-radius:20px;
-    background:linear-gradient(180deg,var(--accent) 0%,var(--accent2) 100%);
-    color:#fff;text-shadow:0 2px 0 rgba(0,0,0,.25);
-    box-shadow:0 5px 0 rgba(59,48,40,.55);
-  }
-  .tag{margin-top:18px;color:var(--sub);font-size:15px}
-  h2{font-size:19px;margin:44px 0 16px;padding-left:12px;border-left:5px solid var(--accent)}
-  .apps{display:grid;gap:16px}
-  .app{
-    display:block;text-decoration:none;color:inherit;
-    background:var(--card);border:2px solid var(--line);border-radius:16px;
-    padding:20px 22px;box-shadow:0 4px 0 rgba(59,48,40,.35);
-    transition:transform .08s ease, box-shadow .08s ease;
-  }
-  .app:hover{transform:translateY(-2px);box-shadow:0 6px 0 rgba(59,48,40,.35)}
-  .app .name{font-size:18px;font-weight:800;margin-bottom:4px}
-  .app .desc{font-size:14px;color:var(--sub)}
-  .app .store{display:inline-block;margin-top:10px;font-size:13px;font-weight:700;color:#0a7cff}
-  .soon{opacity:.6}
-  .soon .store{color:var(--sub)}
-  ul.links{list-style:none;padding:0;margin:0;display:grid;gap:8px}
-  ul.links a{color:#0a7cff}
-  footer{margin-top:56px;padding-top:24px;border-top:1px solid rgba(125,111,98,.3);
-    text-align:center;color:var(--sub);font-size:13px}
-</style>
+<meta name="description" content="pochitto games は Kota Konishi が一人で作っている、iPhone向けの小さなゲームのブランドです。押すな！ボタン、マッスルフレンド、GRID HUNTER をApp Storeで配信中。">
+<link rel="canonical" href="https://pochitto356.github.io/">
+<link rel="alternate" hreflang="ja" href="https://pochitto356.github.io/">
+<link rel="alternate" hreflang="en" href="https://pochitto356.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://pochitto356.github.io/">
+<meta property="og:site_name" content="pochitto games">
+<meta property="og:title" content="pochitto games">
+<meta property="og:description" content="pochitto games は Kota Konishi が一人で作っている、iPhone向けの小さなゲームのブランドです。押すな！ボタン、マッスルフレンド、GRID HUNTER をApp Storeで配信中。">
+<meta property="og:url" content="https://pochitto356.github.io/">
+<meta property="og:image" content="https://pochitto356.github.io/assets/img/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FFFDF7">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-<div class="wrap">
-
-  <header>
-    <div class="logo">pochitto games</div>
-    <p class="tag">すきま時間に、ちょっと笑えるスマホゲームを作っています。</p>
-  </header>
-
-  <h2>アプリ</h2>
-  <div class="apps">
-    <a class="app" href="https://apps.apple.com/jp/app/id6793996412">
-      <div class="name">押すな！ボタン</div>
-      <div class="desc">押すなと言われると押したくなる。ただそれだけのボタンゲーム。</div>
-      <span class="store">App Store で見る →</span>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="/"><img class="logo-mark" src="/assets/img/logo-mark.svg" alt="" width="28" height="28" aria-hidden="true">pochitto games</a>
+    <nav aria-label="menu"><ul><li><a href="/#apps">アプリ</a></li><li><a href="/about/">開発者</a></li><li><a href="/support/">サポート</a></li><li><a href="/privacy/">プライバシー</a></li><li><a class="lang" href="/en/" hreflang="en">English</a></li></ul></nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap">
+    <h1>すきま時間に、<br>ぽちっと。</h1>
+    <p class="lead">Kota Konishi が一人で作っている、iPhone向けの小さなゲームのブランドです。電車を待つ1分で遊べて、気づいたら終わっている。そういうゲームを作っています。</p>
+    <p><a class="btn btn-primary" href="#apps">アプリを見る</a></p>
+  </div>
+  <div class="hero-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+<section class="section" id="apps">
+  <div class="wrap">
+    <h2>アプリ</h2>
+    <p class="muted">3本をApp Storeで配信中。アカウント登録は不要です。</p>
+    <div class="app-grid">
+    <a class="app-card" href="/apps/grid-hunter/" style="--acc:#30E6FF">
+      <img class="app-icon" src="/assets/img/icon-gridhunter.png" alt="GRID HUNTER" width="88" height="88" loading="lazy">
+      <div class="app-card-body">
+        <h3>GRID HUNTER</h3>
+        <p class="app-sub">全方位アーケードシューティング</p>
+        <p class="app-catch">グリッドを支配せよ。</p>
+      </div>
     </a>
-    <div class="app soon">
-      <div class="name">マッスルフレンド</div>
-      <div class="desc">タップで育てる筋肉育成ネタゲー。相棒マッチョをきたえよう。</div>
-      <span class="store">近日公開</span>
+    <a class="app-card" href="/apps/dont-push-the-button/" style="--acc:#E63946">
+      <img class="app-icon" src="/assets/img/icon-osuna.png" alt="押すな！ボタン" width="88" height="88" loading="lazy">
+      <div class="app-card-body">
+        <h3>押すな！ボタン</h3>
+        <p class="app-sub">反射神経バカゲー</p>
+        <p class="app-catch">押すなと言われると、押したくなる。</p>
+      </div>
+    </a>
+    <a class="app-card" href="/apps/muscle-friend/" style="--acc:#F4A261">
+      <img class="app-icon" src="/assets/img/icon-muscle.png" alt="マッスルフレンド" width="88" height="88" loading="lazy">
+      <div class="app-card-body">
+        <h3>マッスルフレンド</h3>
+        <p class="app-sub">筋肉育成バカゲー</p>
+        <p class="app-catch">タップと放置でマッチョを育てる。</p>
+      </div>
+    </a>
+    <a class="app-card app-card--soon" href="/apps/pochitto-kanji/" style="--acc:#2B7DE9">
+      <img class="app-icon" src="/assets/img/icon-kanji.png" alt="ぽちっと漢字" width="88" height="88" loading="lazy">
+      <div class="app-card-body">
+        <h3>ぽちっと漢字</h3>
+        <p class="app-sub">毎日3問の漢字パズル（近日公開）</p>
+        <p class="app-catch">真ん中の漢字は、なに？</p>
+      </div>
+    </a>
     </div>
   </div>
-
-  <h2>プライバシーポリシー</h2>
-  <ul class="links">
-    <li><a href="https://pochitto356.github.io/policies/privacy/">押すな！ボタン</a></li>
-    <li><a href="https://pochitto356.github.io/policies/musclefriend/privacy/">マッスルフレンド</a></li>
-  </ul>
-
-  <h2>お問い合わせ</h2>
-  <p>ご意見・不具合のご報告は <a href="mailto:pochittogames.jp@gmail.com">pochittogames.jp@gmail.com</a> までお願いします。</p>
-
-  <footer>© 2026 pochitto games</footer>
-
-</div>
+</section>
+<section class="section section--soft">
+  <div class="wrap wrap--text">
+    <h2>作っている人</h2>
+    <p>pochitto games は、Kota Konishi が一人で企画・開発・運営しているiPhoneアプリのブランドです。2026年8月にApp Storeで配信を始めました。</p>
+    <p><a href="/about/">開発者について →</a></p>
+  </div>
+</section>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "pochitto games", "url": "https://pochitto356.github.io", "email": "pochittogames.jp@gmail.com", "founder": {"@type": "Person", "name": "Kota Konishi"}}</script>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-brand">pochitto games</p>
+      <p class="muted">すきま時間に、ぽちっと。</p>
+      <p class="muted">お問い合わせ: <a href="mailto:pochittogames.jp@gmail.com">pochittogames.jp@gmail.com</a></p>
+    </div>
+    <div>
+      <p class="footer-h">アプリ</p>
+      <ul><li><a href="/apps/grid-hunter/">GRID HUNTER</a></li><li><a href="/apps/dont-push-the-button/">押すな！ボタン</a></li><li><a href="/apps/muscle-friend/">マッスルフレンド</a></li><li><a href="/apps/pochitto-kanji/">ぽちっと漢字</a></li></ul>
+    </div>
+    <div>
+      <p class="footer-h">サイト</p>
+      <ul>
+        <li><a href="/about/">開発者</a></li>
+        <li><a href="/support/">サポート</a></li>
+        <li><a href="/privacy/">プライバシー</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>&copy; 2026 pochitto games / Kota Konishi</p>
+    <p class="muted">Apple、App Store は Apple Inc. の商標です。</p>
+  </div>
+</footer>
 </body>
 </html>
